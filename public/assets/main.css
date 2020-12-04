@@ -10,7 +10,10 @@ body, a { color: rgb(46, 46, 46); }
 .center{ text-align: center; }
 
 p{ margin-bottom:10px; line-height: 25px;}
+ol, ul, li {list-style-position: inside;}
+li {line-height: 25px;}
 
+.my { margin:15px 0;}
 
 @media only screen and (max-width: 760px) {
   body { width: 80%; }
