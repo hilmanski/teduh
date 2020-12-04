@@ -1,0 +1,17 @@
+body{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 5%;
+    font-family: sans-serif;
+}
+
+body, a { color: rgb(46, 46, 46); }
+*{ margin: 0px; padding: 0px; }
+.center{ text-align: center; }
+
+p{ margin-bottom:10px;}
+
+
+@media only screen and (max-width: 760px) {
+  body { width: 80%; }
+}

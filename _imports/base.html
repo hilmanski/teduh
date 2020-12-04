@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/main.css">
+
+    <title><sergey-slot name="title" /></title>
+    <meta name="description" content='<sergey-slot name="desc" />' />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@teduhus" />
+    <meta name="twitter:title" content='<sergey-slot name="title" />' />
+    <meta name="twitter:description" content='<sergey-slot name="desc" />' />
+    <meta name="twitter:image" content='<sergey-slot name="thumbnail" />' />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content='<sergey-slot name="title" />' />
+    <meta property="og:description" content='<sergey-slot name="desc" />' />
+    <meta property="og:image" content='<sergey-slot name="thumbnail" />' />
+</head>
+
+<body>
+    <sergey-slot />
+    <sergey-import src="footer" />
+</body>
+
+</html>

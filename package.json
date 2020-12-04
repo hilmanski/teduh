@@ -1,0 +1,17 @@
+{
+  "name": "teduh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "sergey": "0.0.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "sergey",
+    "dev": "sergey --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
